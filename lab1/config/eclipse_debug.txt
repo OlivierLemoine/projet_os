@@ -1,0 +1,29 @@
+### bibliothèque statique ###
+arm-none-eabi-ar -crs lib/liblpc2148.a lib/io.o lib/io_asm.o lib/lcd.o lib/adc.o lib/irq.o lib/irq_asm.o lib/timer.o lib/pwm.o lib/eint.o lib/uart.o lib/term_io.o lib/i2c.o lib/lm75.o lib/cat1025.o lib/converter.o lib/util.o
+arm-none-eabi-ar -crs liblpc2148.a io.o io_asm.o lcd.o adc.o irq.o irq_asm.o timer.o pwm.o eint.o uart.o i2c.o lm75.o cat1025.o util.o
+### Debug avec OpenOCD (Linux)
+port TCP : 3333
+
+## config debug eclipse avant de charger le code
+# en RAM
+monitor mww 0xE01FC040 2
+monitor mww 0xE01FC0C4 0x801817BE
+# en Flash
+monitor mww 0xE01FC040 1
+monitor mww 0xE01FC0C4 0x801817BE
+
+
+### SEGGER JLink Gdbserver (Windows ou Linux :-)
+port TCP : 2331
+
+## config debug eclipse avant de charger le code
+# en RAM
+monitor endian little
+monitor speed auto
+monitor memU32 0xE01FC040 = 2
+monitor memU32 0xE01FC0C4 = 0x801817BE
+# en Flash
+monitor endian little
+monitor speed auto
+monitor memU32 0xE01FC040 = 1
+monitor memU32 0xE01FC0C4 = 0x801817BE

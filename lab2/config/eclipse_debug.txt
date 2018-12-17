@@ -1,0 +1,26 @@
+### Debug avec OpenOCD (Linux)
+port TCP : 3333
+
+## config debug eclipse avant de charger le code
+# en RAM
+monitor mww 0xE01FC040 2
+monitor mww 0xE01FC0C4 0x801817BE
+# en Flash
+monitor mww 0xE01FC040 1
+monitor mww 0xE01FC0C4 0x801817BE
+
+
+### SEGGER JLink Gdbserver (Windows ou Linux :-)
+port TCP : 2331
+
+## config debug eclipse avant de charger le code
+# en RAM
+monitor endian little
+monitor speed auto
+monitor memU32 0xE01FC040 = 2
+monitor memU32 0xE01FC0C4 = 0x801817BE
+# en Flash
+monitor endian little
+monitor speed auto
+monitor memU32 0xE01FC040 = 1
+monitor memU32 0xE01FC0C4 = 0x801817BE

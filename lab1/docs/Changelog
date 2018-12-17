@@ -1,0 +1,16 @@
+2016/05
+- mise Ã  jour texte labo
+- .tdbinit
+
+2013/04
+
+- compilation sans optimisation -O0 ou avec -O1 possibles
+- pour la partie sur le driver FAT, désactivation des drivers GPIO pour
+gagner de la place en RAM (en enlevant la définition du symbole
+__WITH_GPIO_DEV dans le makefile)
+- correction d'un bug dans dev_lookup (il manquait un free)
+- ajout d'un allocateur maison. Il est initialisé à l'initialisation du
+système. Du coup, toute les fonctions de la libc utilisant malloc doivent
+être recompilées sous peine de voir l'éditeur de lien inclure la version
+de malloc présente avec la libc associée au compilateur (c'est le cas de
+strdup qui a été redéfinie dans oslib/libc.c).

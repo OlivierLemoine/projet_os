@@ -1,0 +1,750 @@
+Archive member included to satisfy reference by file (symbol)
+
+oslib/drivers/lib/liblpc2148.a(io.o)
+                              oslib/drivers/target.o (io_configure)
+oslib/drivers/lib/liblpc2148.a(io_asm.o)
+                              oslib/drivers/lib/liblpc2148.a(io.o) (io_write_n)
+oslib/drivers/lib/liblpc2148.a(lcd.o)
+                              oslib/drivers/lib/liblpc2148.a(io.o) (lcd_put_char)
+oslib/drivers/lib/liblpc2148.a(timer.o)
+                              oslib/drivers/target.o (timer_tick_init)
+oslib/drivers/lib/liblpc2148.a(eint.o)
+                              oslib/drivers/target.o (eint1_init)
+oslib/drivers/lib/liblpc2148.a(uart.o)
+                              oslib/drivers/target.o (uart_init)
+oslib/drivers/lib/liblpc2148.a(util.o)
+                              oslib/drivers/lib/liblpc2148.a(uart.o) (num2str)
+oslib/drivers/lib/liblpc2148.a(irq.o)
+                              oslib/drivers/lib/liblpc2148.a(timer.o) (irq_register_slot)
+/local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/libgcc.a(_udivsi3.o)
+                              oslib/drivers/lib/liblpc2148.a(io.o) (__aeabi_uidiv)
+/local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/libgcc.a(_dvmd_tls.o)
+                              /local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/libgcc.a(_udivsi3.o) (__aeabi_idiv0)
+/local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-errno.o)
+                              oslib/drivers/startup/board_stubs.o (__errno)
+/local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-impure.o)
+                              /local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-errno.o) (_impure_ptr)
+/local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-memcpy-stub.o)
+                              kernel/kernel.o (memcpy)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 user/tp1_ex7.o
+ .data          0x00000000        0x0 user/tp1_ex7.o
+ .bss           0x00000000        0x0 user/tp1_ex7.o
+ .text          0x00000000        0x0 oslib/drivers/startup/board_lowlevel.o
+ .data          0x00000000        0x0 oslib/drivers/startup/board_lowlevel.o
+ .bss           0x00000000        0x0 oslib/drivers/startup/board_lowlevel.o
+ .text.default_irq_isr
+                0x00000000       0x20 oslib/drivers/startup/board_lowlevel.o
+ .text          0x00000000        0x0 oslib/drivers/startup/board_stubs.o
+ .data          0x00000000        0x0 oslib/drivers/startup/board_stubs.o
+ .bss           0x00000000        0x4 oslib/drivers/startup/board_stubs.o
+ .text._sbrk_r  0x00000000       0xa4 oslib/drivers/startup/board_stubs.o
+ .debug_info    0x00000000      0x8f4 oslib/drivers/startup/board_stubs.o
+ .debug_abbrev  0x00000000      0x1bd oslib/drivers/startup/board_stubs.o
+ .debug_aranges
+                0x00000000       0x20 oslib/drivers/startup/board_stubs.o
+ .debug_ranges  0x00000000       0x10 oslib/drivers/startup/board_stubs.o
+ .debug_line    0x00000000      0x16f oslib/drivers/startup/board_stubs.o
+ .debug_str     0x00000000      0x574 oslib/drivers/startup/board_stubs.o
+ .comment       0x00000000       0x6f oslib/drivers/startup/board_stubs.o
+ .debug_frame   0x00000000       0x30 oslib/drivers/startup/board_stubs.o
+ .ARM.attributes
+                0x00000000       0x30 oslib/drivers/startup/board_stubs.o
+ .text          0x00000000        0x0 oslib/drivers/target.o
+ .data          0x00000000        0x0 oslib/drivers/target.o
+ .bss           0x00000000        0x0 oslib/drivers/target.o
+ .text          0x00000000        0x0 kernel/alloc.o
+ .data          0x00000000        0x0 kernel/alloc.o
+ .bss           0x00000000        0x0 kernel/alloc.o
+ .text          0x00000000        0x0 kernel/kernel.o
+ .text          0x00000000        0x0 kernel/list.o
+ .data          0x00000000        0x0 kernel/list.o
+ .bss           0x00000000        0x0 kernel/list.o
+ .text.list_insert_head
+                0x00000000       0x7c kernel/list.o
+ .text.list_remove_tail
+                0x00000000       0xa4 kernel/list.o
+ .rodata        0x00000000       0x1c kernel/list.o
+ .text.list_display
+                0x00000000       0xf4 kernel/list.o
+ .text          0x00000000        0x0 kernel/syscall_dispatch.o
+ .data          0x00000000        0x0 kernel/syscall_dispatch.o
+ .bss           0x00000000        0x0 kernel/syscall_dispatch.o
+ .text          0x00000000        0x0 oslib/kernellib.o
+ .data          0x00000000        0x0 oslib/kernellib.o
+ .bss           0x00000000        0x0 oslib/kernellib.o
+ .text.test_add
+                0x00000000       0x28 oslib/kernellib.o
+ .text.malloc   0x00000000       0x24 oslib/kernellib.o
+ .text.free     0x00000000       0x18 oslib/kernellib.o
+ .text.task_wait
+                0x00000000       0x18 oslib/kernellib.o
+ .text.sem_new  0x00000000       0x24 oslib/kernellib.o
+ .text.sem_p    0x00000000       0x18 oslib/kernellib.o
+ .text.sem_v    0x00000000       0x18 oslib/kernellib.o
+ .text          0x00000000        0x0 oslib/drivers/startup/board_cstartup.o
+ .data          0x00000000        0x0 oslib/drivers/startup/board_cstartup.o
+ .bss           0x00000000        0x0 oslib/drivers/startup/board_cstartup.o
+ .text          0x00000000        0x0 oslib/drivers/lib/liblpc2148.a(io.o)
+ .data          0x00000000        0xa oslib/drivers/lib/liblpc2148.a(io.o)
+ .bss           0x00000000        0x0 oslib/drivers/lib/liblpc2148.a(io.o)
+ .text.num2str  0x00000000       0xfc oslib/drivers/lib/liblpc2148.a(io.o)
+ .text.leds_and_btns_init
+                0x00000000       0x2c oslib/drivers/lib/liblpc2148.a(io.o)
+ .text.leds     0x00000000       0x24 oslib/drivers/lib/liblpc2148.a(io.o)
+ .text.buttons  0x00000000       0x20 oslib/drivers/lib/liblpc2148.a(io.o)
+ .text.button0  0x00000000       0x48 oslib/drivers/lib/liblpc2148.a(io.o)
+ .text.button1  0x00000000       0x48 oslib/drivers/lib/liblpc2148.a(io.o)
+ .text.button2  0x00000000       0x48 oslib/drivers/lib/liblpc2148.a(io.o)
+ .text.button3  0x00000000       0x48 oslib/drivers/lib/liblpc2148.a(io.o)
+ .text.button4  0x00000000       0x48 oslib/drivers/lib/liblpc2148.a(io.o)
+ .text.lcd_printf
+                0x00000000      0x2cc oslib/drivers/lib/liblpc2148.a(io.o)
+ .rodata        0x00000000       0x14 oslib/drivers/lib/liblpc2148.a(io.o)
+ .text          0x00000000       0x2c oslib/drivers/lib/liblpc2148.a(io_asm.o)
+ .data          0x00000000        0x0 oslib/drivers/lib/liblpc2148.a(io_asm.o)
+ .bss           0x00000000        0x0 oslib/drivers/lib/liblpc2148.a(io_asm.o)
+ .ARM.attributes
+                0x00000000       0x16 oslib/drivers/lib/liblpc2148.a(io_asm.o)
+ .debug_line    0x00000000       0x58 oslib/drivers/lib/liblpc2148.a(io_asm.o)
+ .debug_info    0x00000000       0x6b oslib/drivers/lib/liblpc2148.a(io_asm.o)
+ .debug_abbrev  0x00000000       0x14 oslib/drivers/lib/liblpc2148.a(io_asm.o)
+ .debug_aranges
+                0x00000000       0x20 oslib/drivers/lib/liblpc2148.a(io_asm.o)
+ .text          0x00000000        0x0 oslib/drivers/lib/liblpc2148.a(lcd.o)
+ .data          0x00000000        0x0 oslib/drivers/lib/liblpc2148.a(lcd.o)
+ .bss           0x00000000        0x0 oslib/drivers/lib/liblpc2148.a(lcd.o)
+ .debug_abbrev  0x00000000      0x194 oslib/drivers/lib/liblpc2148.a(lcd.o)
+ .debug_info    0x00000000      0x43d oslib/drivers/lib/liblpc2148.a(lcd.o)
+ .debug_line    0x00000000      0x1f8 oslib/drivers/lib/liblpc2148.a(lcd.o)
+ .text.lcd_send_data
+                0x00000000       0x58 oslib/drivers/lib/liblpc2148.a(lcd.o)
+ .text.lcd_send_cmd
+                0x00000000       0x58 oslib/drivers/lib/liblpc2148.a(lcd.o)
+ .text.lcd_is_busy
+                0x00000000       0x84 oslib/drivers/lib/liblpc2148.a(lcd.o)
+ .text.lcd_backlight
+                0x00000000       0x30 oslib/drivers/lib/liblpc2148.a(lcd.o)
+ .text.lcd_display
+                0x00000000       0x20 oslib/drivers/lib/liblpc2148.a(lcd.o)
+ .text.lcd_mode
+                0x00000000       0x20 oslib/drivers/lib/liblpc2148.a(lcd.o)
+ .text.lcd_shift
+                0x00000000       0x20 oslib/drivers/lib/liblpc2148.a(lcd.o)
+ .text.lcd_clear
+                0x00000000       0x18 oslib/drivers/lib/liblpc2148.a(lcd.o)
+ .text.lcd_home
+                0x00000000       0x18 oslib/drivers/lib/liblpc2148.a(lcd.o)
+ .text.lcd_goto_xy
+                0x00000000       0x38 oslib/drivers/lib/liblpc2148.a(lcd.o)
+ .text.lcd_init
+                0x00000000      0x104 oslib/drivers/lib/liblpc2148.a(lcd.o)
+ .text.lcd_put_char
+                0x00000000       0x28 oslib/drivers/lib/liblpc2148.a(lcd.o)
+ .text.lcd_put_string
+                0x00000000       0x2c oslib/drivers/lib/liblpc2148.a(lcd.o)
+ .text.lcd_new_char
+                0x00000000       0x44 oslib/drivers/lib/liblpc2148.a(lcd.o)
+ .debug_loc     0x00000000      0x394 oslib/drivers/lib/liblpc2148.a(lcd.o)
+ .debug_pubnames
+                0x00000000       0xbc oslib/drivers/lib/liblpc2148.a(lcd.o)
+ .debug_pubtypes
+                0x00000000       0x12 oslib/drivers/lib/liblpc2148.a(lcd.o)
+ .debug_aranges
+                0x00000000       0x88 oslib/drivers/lib/liblpc2148.a(lcd.o)
+ .debug_ranges  0x00000000       0x78 oslib/drivers/lib/liblpc2148.a(lcd.o)
+ .debug_str     0x00000000      0x191 oslib/drivers/lib/liblpc2148.a(lcd.o)
+ .comment       0x00000000       0x2b oslib/drivers/lib/liblpc2148.a(lcd.o)
+ .ARM.attributes
+                0x00000000       0x32 oslib/drivers/lib/liblpc2148.a(lcd.o)
+ .debug_frame   0x00000000      0x154 oslib/drivers/lib/liblpc2148.a(lcd.o)
+ .text          0x00000000        0x0 oslib/drivers/lib/liblpc2148.a(timer.o)
+ .data          0x00000000        0x0 oslib/drivers/lib/liblpc2148.a(timer.o)
+ .text.timer_wait_ms
+                0x00000000       0x58 oslib/drivers/lib/liblpc2148.a(timer.o)
+ .text.timer_wait_us
+                0x00000000       0x54 oslib/drivers/lib/liblpc2148.a(timer.o)
+ .text.timer_oneshot_init
+                0x00000000       0xd4 oslib/drivers/lib/liblpc2148.a(timer.o)
+ .text.timer_stop
+                0x00000000        0xc oslib/drivers/lib/liblpc2148.a(timer.o)
+ .text          0x00000000        0x0 oslib/drivers/lib/liblpc2148.a(eint.o)
+ .data          0x00000000        0x0 oslib/drivers/lib/liblpc2148.a(eint.o)
+ .text          0x00000000        0x0 oslib/drivers/lib/liblpc2148.a(uart.o)
+ .data          0x00000000        0x0 oslib/drivers/lib/liblpc2148.a(uart.o)
+ .text.uart_getc
+                0x00000000       0x58 oslib/drivers/lib/liblpc2148.a(uart.o)
+ .text.uart_getchar
+                0x00000000       0x58 oslib/drivers/lib/liblpc2148.a(uart.o)
+ .text          0x00000000        0x0 oslib/drivers/lib/liblpc2148.a(util.o)
+ .data          0x00000000        0x0 oslib/drivers/lib/liblpc2148.a(util.o)
+ .bss           0x00000000        0x0 oslib/drivers/lib/liblpc2148.a(util.o)
+ .text.str2num  0x00000000       0x90 oslib/drivers/lib/liblpc2148.a(util.o)
+ .text          0x00000000        0x0 oslib/drivers/lib/liblpc2148.a(irq.o)
+ .data          0x00000000        0x0 oslib/drivers/lib/liblpc2148.a(irq.o)
+ .bss           0x00000000        0x0 oslib/drivers/lib/liblpc2148.a(irq.o)
+ .text.irq_init
+                0x00000000       0x18 oslib/drivers/lib/liblpc2148.a(irq.o)
+ .text.irq_unregister_slot
+                0x00000000       0x40 oslib/drivers/lib/liblpc2148.a(irq.o)
+ .data          0x00000000        0x0 /local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/libgcc.a(_udivsi3.o)
+ .bss           0x00000000        0x0 /local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/libgcc.a(_udivsi3.o)
+ .data          0x00000000        0x0 /local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/libgcc.a(_dvmd_tls.o)
+ .bss           0x00000000        0x0 /local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/libgcc.a(_dvmd_tls.o)
+ .text          0x00000000        0x0 /local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-errno.o)
+ .data          0x00000000        0x0 /local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-errno.o)
+ .bss           0x00000000        0x0 /local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-errno.o)
+ .text.__errno  0x00000000       0x10 /local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-errno.o)
+ .debug_frame   0x00000000       0x20 /local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-errno.o)
+ .ARM.attributes
+                0x00000000       0x30 /local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-errno.o)
+ .text          0x00000000        0x0 /local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-impure.o)
+ .data          0x00000000        0x0 /local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-impure.o)
+ .bss           0x00000000        0x0 /local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-impure.o)
+ .data.impure_data
+                0x00000000      0x428 /local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-impure.o)
+ .data._impure_ptr
+                0x00000000        0x4 /local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-impure.o)
+ .rodata.str1.4
+                0x00000000        0x2 /local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-impure.o)
+ .rodata._global_impure_ptr
+                0x00000000        0x4 /local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-impure.o)
+ .ARM.attributes
+                0x00000000       0x30 /local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-impure.o)
+ .text          0x00000000        0x0 /local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-memcpy-stub.o)
+ .data          0x00000000        0x0 /local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-memcpy-stub.o)
+ .bss           0x00000000        0x0 /local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-memcpy-stub.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x00000000         0x00080000         xr
+SRAM1            0x40000000         0x00008000         xrw
+SRAM2            0x7fd00000         0x00002000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD user/tp1_ex7.o
+LOAD oslib/drivers/startup/board_lowlevel.o
+LOAD oslib/drivers/startup/board_stubs.o
+LOAD oslib/drivers/target.o
+LOAD kernel/alloc.o
+LOAD kernel/kernel.o
+LOAD kernel/list.o
+LOAD kernel/syscall_dispatch.o
+LOAD oslib/kernellib.o
+LOAD oslib/drivers/startup/board_cstartup.o
+LOAD oslib/drivers/lib/liblpc2148.a
+START GROUP
+LOAD /local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/libgcc.a
+LOAD /local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a
+END GROUP
+                0x00000080                USR_STACK_SIZE = 0x80
+                0x00000400                IRQ_STACK_SIZE = 0x400
+                0x00000000                FIQ_STACK_SIZE = 0x0
+                0x00000400                SVC_STACK_SIZE = 0x400
+                0x00000000                ABT_STACK_SIZE = 0x0
+                0x00000000                UND_STACK_SIZE = 0x0
+                0x7fd02000                HEAP_END = 0x7fd02000
+
+.vectors        0x40000000       0x40
+ *(.vectors)
+ .vectors       0x40000000       0x40 oslib/drivers/startup/board_cstartup.o
+                0x40000000                _start
+
+.text           0x40000040     0x1b88
+ *(.text .text.*)
+ .text.code1    0x40000040       0x64 user/tp1_ex7.o
+                0x40000040                code1
+ .text.code2    0x400000a4       0x64 user/tp1_ex7.o
+                0x400000a4                code2
+ .text.code3    0x40000108       0x64 user/tp1_ex7.o
+                0x40000108                code3
+ .text.code4    0x4000016c       0xb0 user/tp1_ex7.o
+                0x4000016c                code4
+ .text.main     0x4000021c       0x58 user/tp1_ex7.o
+                0x4000021c                main
+ .text.LowLevelInit
+                0x40000274      0x154 oslib/drivers/startup/board_lowlevel.o
+                0x40000274                LowLevelInit
+ .text.on_button_cb
+                0x400003c8       0x14 oslib/drivers/target.o
+ .text.on_timeout_cb
+                0x400003dc       0x18 oslib/drivers/target.o
+ .text.on_receive_cb
+                0x400003f4        0x8 oslib/drivers/target.o
+ .text.dev_init
+                0x400003fc       0x8c oslib/drivers/target.o
+                0x400003fc                dev_init
+ .text.minit    0x40000488       0x40 kernel/alloc.o
+                0x40000488                minit
+ .text.sys_alloc
+                0x400004c8      0x138 kernel/alloc.o
+                0x400004c8                sys_alloc
+ .text.sys_free
+                0x40000600      0x144 kernel/alloc.o
+                0x40000600                sys_free
+ .text.sys_round_robin
+                0x40000744       0x94 kernel/kernel.o
+                0x40000744                sys_round_robin
+ .text.sys_wait
+                0x400007d8       0xfc kernel/kernel.o
+                0x400007d8                sys_wait
+ .text.sys_os_start
+                0x400008d4       0x64 kernel/kernel.o
+                0x400008d4                sys_os_start
+ .text.sys_task_new
+                0x40000938      0x148 kernel/kernel.o
+                0x40000938                sys_task_new
+ .text.sys_task_kill
+                0x40000a80       0x9c kernel/kernel.o
+                0x40000a80                sys_task_kill
+ .text.sys_task_id
+                0x40000b1c       0x18 kernel/kernel.o
+                0x40000b1c                sys_task_id
+ .text.sys_task_wait
+                0x40000b34       0xec kernel/kernel.o
+                0x40000b34                sys_task_wait
+ .text.sys_sem_new
+                0x40000c20       0x44 kernel/kernel.o
+                0x40000c20                sys_sem_new
+ .text.sys_sem_p
+                0x40000c64       0xfc kernel/kernel.o
+                0x40000c64                sys_sem_p
+ .text.sys_sem_v
+                0x40000d60       0xac kernel/kernel.o
+                0x40000d60                sys_sem_v
+ .text.list_remove_head
+                0x40000e0c       0x9c kernel/list.o
+                0x40000e0c                list_remove_head
+ .text.list_insert_tail
+                0x40000ea8       0x80 kernel/list.o
+                0x40000ea8                list_insert_tail
+ .text.list_size
+                0x40000f28       0x6c kernel/list.o
+                0x40000f28                list_size
+ .text.sys_add  0x40000f94       0x24 kernel/syscall_dispatch.o
+                0x40000f94                sys_add
+ .text.syscall_dispatch
+                0x40000fb8      0x16c kernel/syscall_dispatch.o
+                0x40000fb8                syscall_dispatch
+ .text.os_start
+                0x40001124        0xc oslib/kernellib.o
+                0x40001124                os_start
+ .text.task_new
+                0x40001130       0x28 oslib/kernellib.o
+                0x40001130                task_new
+ .text.task_id  0x40001158       0x20 oslib/kernellib.o
+                0x40001158                task_id
+ .text.task_kill
+                0x40001178        0xc oslib/kernellib.o
+                0x40001178                task_kill
+ .text.io_configure
+                0x40001184      0x10c oslib/drivers/lib/liblpc2148.a(io.o)
+                0x40001184                io_configure
+ .text.timer0_isr
+                0x40001290       0x38 oslib/drivers/lib/liblpc2148.a(timer.o)
+                0x40001290                timer0_isr
+ .text.timer1_isr
+                0x400012c8       0x38 oslib/drivers/lib/liblpc2148.a(timer.o)
+                0x400012c8                timer1_isr
+ .text.timer_tick_init
+                0x40001300       0xd4 oslib/drivers/lib/liblpc2148.a(timer.o)
+                0x40001300                timer_tick_init
+ .text.timer_start
+                0x400013d4        0xc oslib/drivers/lib/liblpc2148.a(timer.o)
+                0x400013d4                timer_start
+ .text.eint1_isr
+                0x400013e0       0x38 oslib/drivers/lib/liblpc2148.a(eint.o)
+                0x400013e0                eint1_isr
+ .text.eint1_init
+                0x40001418       0x8c oslib/drivers/lib/liblpc2148.a(eint.o)
+                0x40001418                eint1_init
+ .text.uart0_isr
+                0x400014a4       0xb8 oslib/drivers/lib/liblpc2148.a(uart.o)
+                0x400014a4                uart0_isr
+ .text.uart1_isr
+                0x4000155c       0x40 oslib/drivers/lib/liblpc2148.a(uart.o)
+                0x4000155c                uart1_isr
+ .text.uart_init
+                0x4000159c      0x140 oslib/drivers/lib/liblpc2148.a(uart.o)
+                0x4000159c                uart_init
+ .text.uart_putc
+                0x400016dc       0x14 oslib/drivers/lib/liblpc2148.a(uart.o)
+                0x400016dc                uart_putc
+ .text.uart_puts
+                0x400016f0       0x38 oslib/drivers/lib/liblpc2148.a(uart.o)
+                0x400016f0                uart_puts
+ .text.uart_printf
+                0x40001728      0x190 oslib/drivers/lib/liblpc2148.a(uart.o)
+                0x40001728                uart_printf
+ .text.num2str  0x400018b8       0x8c oslib/drivers/lib/liblpc2148.a(util.o)
+                0x400018b8                num2str
+ .text.irq_register_slot
+                0x40001944       0x64 oslib/drivers/lib/liblpc2148.a(irq.o)
+                0x40001944                irq_register_slot
+ .text.irq_ack  0x400019a8       0x18 oslib/drivers/lib/liblpc2148.a(irq.o)
+                0x400019a8                irq_ack
+ .text          0x400019c0      0x114 /local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/libgcc.a(_udivsi3.o)
+                0x400019c0                __udivsi3
+                0x400019c0                __aeabi_uidiv
+                0x40001ab4                __aeabi_uidivmod
+ .text          0x40001ad4        0x4 /local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/libgcc.a(_dvmd_tls.o)
+                0x40001ad4                __aeabi_ldiv0
+                0x40001ad4                __aeabi_idiv0
+ .text.memcpy   0x40001ad8       0xf0 /local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-memcpy-stub.o)
+                0x40001ad8                memcpy
+
+.glue_7         0x40001bc8        0x0
+ .glue_7        0x40001bc8        0x0 linker stubs
+
+.glue_7t        0x40001bc8        0x0
+ .glue_7t       0x40001bc8        0x0 linker stubs
+
+.vfp11_veneer   0x40001bc8        0x0
+ .vfp11_veneer  0x40001bc8        0x0 linker stubs
+
+.v4_bx          0x40001bc8        0x0
+ .v4_bx         0x40001bc8        0x0 linker stubs
+
+.iplt           0x40001bc8        0x0
+ .iplt          0x40001bc8        0x0 user/tp1_ex7.o
+
+.init           0x40001bc8      0x14c
+ .init          0x40001bc8      0x14c oslib/drivers/startup/board_cstartup.o
+                0x40001cdc                _exit
+
+.rodata         0x40001d14       0x8c
+ *(.rodata .rodata.*)
+ .rodata        0x40001d14       0x1d user/tp1_ex7.o
+ *fill*         0x40001d31        0x3 
+ .rodata        0x40001d34       0x58 oslib/drivers/startup/board_lowlevel.o
+                0x40001d34                _VIC
+                0x40001d38                _PCB
+                0x40001d3c                _SCB
+                0x40001d40                _EXT
+                0x40001d44                _IO0
+                0x40001d48                _IO1
+                0x40001d4c                _FIO0
+                0x40001d50                _FIO1
+                0x40001d54                _TIMER0
+                0x40001d58                _TIMER1
+                0x40001d5c                _PWM
+                0x40001d60                _UART0
+                0x40001d64                _UART1
+                0x40001d68                _I2C0
+                0x40001d6c                _I2C1
+                0x40001d70                _SPI0
+                0x40001d74                _SSP
+                0x40001d78                _RTC
+                0x40001d7c                _ADC0
+                0x40001d80                _ADC1
+                0x40001d84                _DAC
+                0x40001d88                _WD
+ .rodata        0x40001d8c       0x14 oslib/drivers/lib/liblpc2148.a(util.o)
+
+.rel.dyn        0x40001da0        0x0
+ .rel.iplt      0x40001da0        0x0 user/tp1_ex7.o
+
+.data           0x40001da0        0x4
+                0x40001da0                __data_load = LOADADDR (.data)
+                0x40001da0                __data_start = .
+ *(.data)
+ .data          0x40001da0        0x4 kernel/kernel.o
+                0x40001da4                . = ALIGN (0x4)
+                0x40001da4                __data_end = .
+
+.igot.plt       0x40001da4        0x0
+ .igot.plt      0x40001da4        0x0 user/tp1_ex7.o
+
+.bss            0x40001da4       0xa8
+                0x40001da4                __bss_start = .
+ *(.bss .bss.*)
+ .bss           0x40001da4        0xc kernel/kernel.o
+                0x40001da4                tsk_running
+                0x40001da8                tsk_sleeping
+                0x40001dac                saved_ctx
+ .bss           0x40001db0        0x8 oslib/drivers/lib/liblpc2148.a(timer.o)
+ .bss           0x40001db8        0x4 oslib/drivers/lib/liblpc2148.a(eint.o)
+ .bss           0x40001dbc       0x90 oslib/drivers/lib/liblpc2148.a(uart.o)
+                0x40001e4c                . = ALIGN (0x4)
+                0x40001e4c                __bss_end = .
+
+.stack          0x7fd00000      0x880
+                0x7fd00000                . = ALIGN (0x4)
+                0x7fd00000                __stack_start = .
+                0x7fd00080                . = (. + USR_STACK_SIZE)
+ *fill*         0x7fd00000       0x80 
+                0x7fd00080                . = ALIGN (0x4)
+                0x7fd00080                __usr_stack_top = .
+                0x7fd00480                . = (. + IRQ_STACK_SIZE)
+ *fill*         0x7fd00080      0x400 
+                0x7fd00480                . = ALIGN (0x4)
+                0x7fd00480                __irq_stack_top = .
+                0x7fd00480                . = (. + FIQ_STACK_SIZE)
+                0x7fd00480                . = ALIGN (0x4)
+                0x7fd00480                __fiq_stack_top = .
+                0x7fd00880                . = (. + SVC_STACK_SIZE)
+ *fill*         0x7fd00480      0x400 
+                0x7fd00880                . = ALIGN (0x4)
+                0x7fd00880                __svc_stack_top = .
+                0x7fd00880                . = (. + ABT_STACK_SIZE)
+                0x7fd00880                . = ALIGN (0x4)
+                0x7fd00880                __abt_stack_top = .
+                0x7fd00880                . = (. + UND_STACK_SIZE)
+                0x7fd00880                . = ALIGN (0x4)
+                0x7fd00880                __und_stack_top = .
+                0x7fd00880                __stack_end = .
+
+.heap           0x7fd00880     0x1780
+                0x7fd00880                __heap_start = .
+                0x7fd02000                . = ABSOLUTE (HEAP_END)
+ *fill*         0x7fd00880     0x1780 
+                0x7fd02000                __heap_end = .
+OUTPUT(main.elf elf32-littlearm)
+
+.debug_info     0x00000000     0x3998
+ .debug_info    0x00000000      0x22f user/tp1_ex7.o
+ .debug_info    0x0000022f     0x1075 oslib/drivers/startup/board_lowlevel.o
+ .debug_info    0x000012a4      0x279 oslib/drivers/target.o
+ .debug_info    0x0000151d      0x1c7 kernel/alloc.o
+ .debug_info    0x000016e4      0x508 kernel/kernel.o
+ .debug_info    0x00001bec      0x3ea kernel/list.o
+ .debug_info    0x00001fd6      0x23a kernel/syscall_dispatch.o
+ .debug_info    0x00002210      0x27e oslib/kernellib.o
+ .debug_info    0x0000248e       0x7c oslib/drivers/startup/board_cstartup.o
+ .debug_info    0x0000250a      0x5a0 oslib/drivers/lib/liblpc2148.a(io.o)
+ .debug_info    0x00002aaa      0x4af oslib/drivers/lib/liblpc2148.a(timer.o)
+ .debug_info    0x00002f59      0x1aa oslib/drivers/lib/liblpc2148.a(eint.o)
+ .debug_info    0x00003103      0x49d oslib/drivers/lib/liblpc2148.a(uart.o)
+ .debug_info    0x000035a0      0x16e oslib/drivers/lib/liblpc2148.a(util.o)
+ .debug_info    0x0000370e      0x28a oslib/drivers/lib/liblpc2148.a(irq.o)
+
+.debug_abbrev   0x00000000     0x1149
+ .debug_abbrev  0x00000000       0xd6 user/tp1_ex7.o
+ .debug_abbrev  0x000000d6      0x15c oslib/drivers/startup/board_lowlevel.o
+ .debug_abbrev  0x00000232       0xda oslib/drivers/target.o
+ .debug_abbrev  0x0000030c       0xdf kernel/alloc.o
+ .debug_abbrev  0x000003eb      0x1e4 kernel/kernel.o
+ .debug_abbrev  0x000005cf      0x15a kernel/list.o
+ .debug_abbrev  0x00000729       0xf9 kernel/syscall_dispatch.o
+ .debug_abbrev  0x00000822      0x107 oslib/kernellib.o
+ .debug_abbrev  0x00000929       0x12 oslib/drivers/startup/board_cstartup.o
+ .debug_abbrev  0x0000093b      0x21e oslib/drivers/lib/liblpc2148.a(io.o)
+ .debug_abbrev  0x00000b59      0x140 oslib/drivers/lib/liblpc2148.a(timer.o)
+ .debug_abbrev  0x00000c99       0xf3 oslib/drivers/lib/liblpc2148.a(eint.o)
+ .debug_abbrev  0x00000d8c      0x1fd oslib/drivers/lib/liblpc2148.a(uart.o)
+ .debug_abbrev  0x00000f89       0xc7 oslib/drivers/lib/liblpc2148.a(util.o)
+ .debug_abbrev  0x00001050       0xf9 oslib/drivers/lib/liblpc2148.a(irq.o)
+
+.debug_aranges  0x00000000      0x3e8
+ .debug_aranges
+                0x00000000       0x40 user/tp1_ex7.o
+ .debug_aranges
+                0x00000040       0x28 oslib/drivers/startup/board_lowlevel.o
+ .debug_aranges
+                0x00000068       0x38 oslib/drivers/target.o
+ .debug_aranges
+                0x000000a0       0x30 kernel/alloc.o
+ .debug_aranges
+                0x000000d0       0x68 kernel/kernel.o
+ .debug_aranges
+                0x00000138       0x48 kernel/list.o
+ .debug_aranges
+                0x00000180       0x28 kernel/syscall_dispatch.o
+ .debug_aranges
+                0x000001a8       0x70 oslib/kernellib.o
+ .debug_aranges
+                0x00000218       0x28 oslib/drivers/startup/board_cstartup.o
+ .debug_aranges
+                0x00000240       0x70 oslib/drivers/lib/liblpc2148.a(io.o)
+ .debug_aranges
+                0x000002b0       0x58 oslib/drivers/lib/liblpc2148.a(timer.o)
+ .debug_aranges
+                0x00000308       0x28 oslib/drivers/lib/liblpc2148.a(eint.o)
+ .debug_aranges
+                0x00000330       0x58 oslib/drivers/lib/liblpc2148.a(uart.o)
+ .debug_aranges
+                0x00000388       0x28 oslib/drivers/lib/liblpc2148.a(util.o)
+ .debug_aranges
+                0x000003b0       0x38 oslib/drivers/lib/liblpc2148.a(irq.o)
+
+.debug_ranges   0x00000000      0x318
+ .debug_ranges  0x00000000       0x30 user/tp1_ex7.o
+ .debug_ranges  0x00000030       0x18 oslib/drivers/startup/board_lowlevel.o
+ .debug_ranges  0x00000048       0x28 oslib/drivers/target.o
+ .debug_ranges  0x00000070       0x20 kernel/alloc.o
+ .debug_ranges  0x00000090       0x58 kernel/kernel.o
+ .debug_ranges  0x000000e8       0x38 kernel/list.o
+ .debug_ranges  0x00000120       0x18 kernel/syscall_dispatch.o
+ .debug_ranges  0x00000138       0x60 oslib/kernellib.o
+ .debug_ranges  0x00000198       0x20 oslib/drivers/startup/board_cstartup.o
+ .debug_ranges  0x000001b8       0x78 oslib/drivers/lib/liblpc2148.a(io.o)
+ .debug_ranges  0x00000230       0x48 oslib/drivers/lib/liblpc2148.a(timer.o)
+ .debug_ranges  0x00000278       0x18 oslib/drivers/lib/liblpc2148.a(eint.o)
+ .debug_ranges  0x00000290       0x48 oslib/drivers/lib/liblpc2148.a(uart.o)
+ .debug_ranges  0x000002d8       0x18 oslib/drivers/lib/liblpc2148.a(util.o)
+ .debug_ranges  0x000002f0       0x28 oslib/drivers/lib/liblpc2148.a(irq.o)
+
+.debug_line     0x00000000     0x10be
+ .debug_line    0x00000000      0x111 user/tp1_ex7.o
+ .debug_line    0x00000111       0xb9 oslib/drivers/startup/board_lowlevel.o
+ .debug_line    0x000001ca       0xae oslib/drivers/target.o
+ .debug_line    0x00000278       0xa2 kernel/alloc.o
+ .debug_line    0x0000031a      0x1f4 kernel/kernel.o
+ .debug_line    0x0000050e      0x134 kernel/list.o
+ .debug_line    0x00000642       0x96 kernel/syscall_dispatch.o
+ .debug_line    0x000006d8      0x117 oslib/kernellib.o
+ .debug_line    0x000007ef       0xcb oslib/drivers/startup/board_cstartup.o
+ .debug_line    0x000008ba      0x266 oslib/drivers/lib/liblpc2148.a(io.o)
+ .debug_line    0x00000b20      0x167 oslib/drivers/lib/liblpc2148.a(timer.o)
+ .debug_line    0x00000c87       0xc0 oslib/drivers/lib/liblpc2148.a(eint.o)
+ .debug_line    0x00000d47      0x20d oslib/drivers/lib/liblpc2148.a(uart.o)
+ .debug_line    0x00000f54       0x96 oslib/drivers/lib/liblpc2148.a(util.o)
+ .debug_line    0x00000fea       0xd4 oslib/drivers/lib/liblpc2148.a(irq.o)
+
+.debug_str      0x00000000      0xb07
+ .debug_str     0x00000000      0x169 user/tp1_ex7.o
+                                0x1a2 (size before relaxing)
+ .debug_str     0x00000169      0x372 oslib/drivers/startup/board_lowlevel.o
+                                0x4e3 (size before relaxing)
+ .debug_str     0x000004db       0x60 oslib/drivers/target.o
+                                0x1e3 (size before relaxing)
+ .debug_str     0x0000053b       0x4d kernel/alloc.o
+                                0x1aa (size before relaxing)
+ .debug_str     0x00000588      0x174 kernel/kernel.o
+                                0x313 (size before relaxing)
+ .debug_str     0x000006fc       0x73 kernel/list.o
+                                0x29c (size before relaxing)
+ .debug_str     0x0000076f       0x38 kernel/syscall_dispatch.o
+                                0x236 (size before relaxing)
+ .debug_str     0x000007a7       0x22 oslib/kernellib.o
+                                0x1de (size before relaxing)
+ .debug_str     0x000007c9      0x14c oslib/drivers/lib/liblpc2148.a(io.o)
+                                0x204 (size before relaxing)
+ .debug_str     0x00000915       0xab oslib/drivers/lib/liblpc2148.a(timer.o)
+                                0x210 (size before relaxing)
+ .debug_str     0x000009c0       0x49 oslib/drivers/lib/liblpc2148.a(eint.o)
+                                0x131 (size before relaxing)
+ .debug_str     0x00000a09       0x8e oslib/drivers/lib/liblpc2148.a(uart.o)
+                                0x1b5 (size before relaxing)
+ .debug_str     0x00000a97       0x19 oslib/drivers/lib/liblpc2148.a(util.o)
+                                 0xd5 (size before relaxing)
+ .debug_str     0x00000ab0       0x57 oslib/drivers/lib/liblpc2148.a(irq.o)
+                                0x1ad (size before relaxing)
+
+.comment        0x00000000       0x98
+ .comment       0x00000000       0x6e user/tp1_ex7.o
+                                 0x6f (size before relaxing)
+ .comment       0x0000006e       0x6f oslib/drivers/startup/board_lowlevel.o
+ .comment       0x0000006e       0x6f oslib/drivers/target.o
+ .comment       0x0000006e       0x6f kernel/alloc.o
+ .comment       0x0000006e       0x6f kernel/kernel.o
+ .comment       0x0000006e       0x6f kernel/list.o
+ .comment       0x0000006e       0x6f kernel/syscall_dispatch.o
+ .comment       0x0000006e       0x6f oslib/kernellib.o
+ .comment       0x0000006e       0x2a oslib/drivers/lib/liblpc2148.a(io.o)
+                                 0x2b (size before relaxing)
+ .comment       0x00000098       0x2b oslib/drivers/lib/liblpc2148.a(timer.o)
+ .comment       0x00000098       0x2b oslib/drivers/lib/liblpc2148.a(eint.o)
+ .comment       0x00000098       0x2b oslib/drivers/lib/liblpc2148.a(uart.o)
+ .comment       0x00000098       0x2b oslib/drivers/lib/liblpc2148.a(util.o)
+ .comment       0x00000098       0x2b oslib/drivers/lib/liblpc2148.a(irq.o)
+
+.ARM.attributes
+                0x00000000       0x30
+ .ARM.attributes
+                0x00000000       0x30 user/tp1_ex7.o
+ .ARM.attributes
+                0x00000030       0x30 oslib/drivers/startup/board_lowlevel.o
+ .ARM.attributes
+                0x00000060       0x30 oslib/drivers/target.o
+ .ARM.attributes
+                0x00000090       0x30 kernel/alloc.o
+ .ARM.attributes
+                0x000000c0       0x30 kernel/kernel.o
+ .ARM.attributes
+                0x000000f0       0x30 kernel/list.o
+ .ARM.attributes
+                0x00000120       0x30 kernel/syscall_dispatch.o
+ .ARM.attributes
+                0x00000150       0x30 oslib/kernellib.o
+ .ARM.attributes
+                0x00000180       0x16 oslib/drivers/startup/board_cstartup.o
+ .ARM.attributes
+                0x00000196       0x32 oslib/drivers/lib/liblpc2148.a(io.o)
+ .ARM.attributes
+                0x000001c8       0x32 oslib/drivers/lib/liblpc2148.a(timer.o)
+ .ARM.attributes
+                0x000001fa       0x32 oslib/drivers/lib/liblpc2148.a(eint.o)
+ .ARM.attributes
+                0x0000022c       0x32 oslib/drivers/lib/liblpc2148.a(uart.o)
+ .ARM.attributes
+                0x0000025e       0x32 oslib/drivers/lib/liblpc2148.a(util.o)
+ .ARM.attributes
+                0x00000290       0x32 oslib/drivers/lib/liblpc2148.a(irq.o)
+ .ARM.attributes
+                0x000002c2       0x18 /local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x000002da       0x18 /local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x000002f2       0x30 /local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-memcpy-stub.o)
+
+.debug_frame    0x00000000      0x8b8
+ .debug_frame   0x00000000       0x94 user/tp1_ex7.o
+ .debug_frame   0x00000094       0x44 oslib/drivers/startup/board_lowlevel.o
+ .debug_frame   0x000000d8       0x74 oslib/drivers/target.o
+ .debug_frame   0x0000014c       0x58 kernel/alloc.o
+ .debug_frame   0x000001a4      0x13c kernel/kernel.o
+ .debug_frame   0x000002e0       0xa8 kernel/list.o
+ .debug_frame   0x00000388       0x48 kernel/syscall_dispatch.o
+ .debug_frame   0x000003d0      0x108 oslib/kernellib.o
+ .debug_frame   0x000004d8      0x110 oslib/drivers/lib/liblpc2148.a(io.o)
+ .debug_frame   0x000005e8       0xb0 oslib/drivers/lib/liblpc2148.a(timer.o)
+ .debug_frame   0x00000698       0x44 oslib/drivers/lib/liblpc2148.a(eint.o)
+ .debug_frame   0x000006dc       0xdc oslib/drivers/lib/liblpc2148.a(uart.o)
+ .debug_frame   0x000007b8       0x4c oslib/drivers/lib/liblpc2148.a(util.o)
+ .debug_frame   0x00000804       0x58 oslib/drivers/lib/liblpc2148.a(irq.o)
+ .debug_frame   0x0000085c       0x20 /local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/libgcc.a(_udivsi3.o)
+ .debug_frame   0x0000087c       0x3c /local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-memcpy-stub.o)
+
+.debug_loc      0x00000000      0xcfb
+ .debug_loc     0x00000000      0x616 oslib/drivers/lib/liblpc2148.a(io.o)
+ .debug_loc     0x00000616      0x144 oslib/drivers/lib/liblpc2148.a(timer.o)
+ .debug_loc     0x0000075a       0x9a oslib/drivers/lib/liblpc2148.a(eint.o)
+ .debug_loc     0x000007f4      0x2d1 oslib/drivers/lib/liblpc2148.a(uart.o)
+ .debug_loc     0x00000ac5      0x185 oslib/drivers/lib/liblpc2148.a(util.o)
+ .debug_loc     0x00000c4a       0xb1 oslib/drivers/lib/liblpc2148.a(irq.o)
+
+.debug_pubnames
+                0x00000000      0x271
+ .debug_pubnames
+                0x00000000       0x9a oslib/drivers/lib/liblpc2148.a(io.o)
+ .debug_pubnames
+                0x0000009a       0x9e oslib/drivers/lib/liblpc2148.a(timer.o)
+ .debug_pubnames
+                0x00000138       0x2f oslib/drivers/lib/liblpc2148.a(eint.o)
+ .debug_pubnames
+                0x00000167       0x87 oslib/drivers/lib/liblpc2148.a(uart.o)
+ .debug_pubnames
+                0x000001ee       0x2a oslib/drivers/lib/liblpc2148.a(util.o)
+ .debug_pubnames
+                0x00000218       0x59 oslib/drivers/lib/liblpc2148.a(irq.o)
+
+.debug_pubtypes
+                0x00000000      0x182
+ .debug_pubtypes
+                0x00000000       0x5f oslib/drivers/lib/liblpc2148.a(io.o)
+ .debug_pubtypes
+                0x0000005f       0x36 oslib/drivers/lib/liblpc2148.a(timer.o)
+ .debug_pubtypes
+                0x00000095       0x36 oslib/drivers/lib/liblpc2148.a(eint.o)
+ .debug_pubtypes
+                0x000000cb       0x7a oslib/drivers/lib/liblpc2148.a(uart.o)
+ .debug_pubtypes
+                0x00000145       0x12 oslib/drivers/lib/liblpc2148.a(util.o)
+ .debug_pubtypes
+                0x00000157       0x2b oslib/drivers/lib/liblpc2148.a(irq.o)

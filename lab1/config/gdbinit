@@ -1,0 +1,12 @@
+layout src
+fs cmd
+tabset 4
+wh cmd 20
+set confirm off
+target remote localhost:3333
+monitor soft_reset_halt
+monitor mww 0xE01FC040 2
+monitor mww 0xE01FC0C4 0x801817BE
+load
+tbreak main
+cont
