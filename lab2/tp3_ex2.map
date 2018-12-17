@@ -1,0 +1,950 @@
+Archive member included to satisfy reference by file (symbol)
+
+oslib/drivers/lib/liblpc2148.a(io.o)
+                              oslib/drivers/lib/diskio.o (io_configure)
+oslib/drivers/lib/liblpc2148.a(io_asm.o)
+                              oslib/drivers/lib/liblpc2148.a(io.o) (io_write_n)
+oslib/drivers/lib/liblpc2148.a(lcd.o)
+                              oslib/drivers/lib/liblpc2148.a(io.o) (lcd_put_char)
+oslib/drivers/lib/liblpc2148.a(timer.o)
+                              oslib/drivers/target.o (timer_tick_init)
+oslib/drivers/lib/liblpc2148.a(eint.o)
+                              oslib/drivers/target.o (eint1_init)
+oslib/drivers/lib/liblpc2148.a(uart.o)
+                              oslib/drivers/target.o (uart_init)
+oslib/drivers/lib/liblpc2148.a(util.o)
+                              oslib/drivers/lib/liblpc2148.a(uart.o) (num2str)
+oslib/drivers/lib/liblpc2148.a(irq.o)
+                              oslib/drivers/lib/liblpc2148.a(timer.o) (irq_register_slot)
+kernel/libkernel.a(kernel.o)  oslib/drivers/target.o (sys_round_robin)
+kernel/libkernel.a(list.o)    kernel/libkernel.a(kernel.o) (list_insert_head)
+kernel/libkernel.a(syscall_dispatch.o)
+                              oslib/drivers/startup/board_cstartup.o (syscall_dispatch)
+kernel/libkernel.a(alloc.o)   oslib/drivers/target.o (minit)
+/local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/libgcc.a(_udivsi3.o)
+                              oslib/termio.o (__aeabi_uidiv)
+/local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/libgcc.a(_dvmd_tls.o)
+                              /local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/libgcc.a(_udivsi3.o) (__aeabi_idiv0)
+/local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-ctype_.o)
+                              user/lexer.o (__ctype_ptr__)
+/local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-errno.o)
+                              oslib/drivers/startup/board_stubs.o (__errno)
+/local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-impure.o)
+                              /local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-errno.o) (_impure_ptr)
+/local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-memcpy-stub.o)
+                              oslib/drivers/target.o (memcpy)
+/local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-memmove.o)
+                              oslib/termio.o (memmove)
+/local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-strcmp.o)
+                              user/lexer.o (strcmp)
+/local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-strcpy.o)
+                              oslib/vfs.o (strcpy)
+/local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-strlen-stub.o)
+                              oslib/libc.o (strlen)
+
+Allocating common symbols
+Common symbol       size              file
+
+fs                  0x1c              oslib/fat.o
+opened_fds          0x50              oslib/vfs.o
+text                0x50              user/tp3_ex2.o
+token_val           0x4               user/lexer.o
+buf                 0x200             user/tp3_ex2.o
+token               0x1               user/lexer.o
+token_str           0x50              user/lexer.o
+
+Discarded input sections
+
+ .text          0x00000000        0x0 user/tp3_ex2.o
+ .data          0x00000000        0x0 user/tp3_ex2.o
+ .bss           0x00000000        0x0 user/tp3_ex2.o
+ .text          0x00000000        0x0 user/lexer.o
+ .text          0x00000000        0x0 oslib/drivers/startup/board_lowlevel.o
+ .data          0x00000000        0x0 oslib/drivers/startup/board_lowlevel.o
+ .bss           0x00000000        0x0 oslib/drivers/startup/board_lowlevel.o
+ .text.default_irq_isr
+                0x00000000       0x18 oslib/drivers/startup/board_lowlevel.o
+ .text          0x00000000        0x0 oslib/drivers/startup/board_stubs.o
+ .data          0x00000000        0x0 oslib/drivers/startup/board_stubs.o
+ .bss           0x00000000        0x4 oslib/drivers/startup/board_stubs.o
+ .text._sbrk_r  0x00000000       0x5c oslib/drivers/startup/board_stubs.o
+ .comment       0x00000000       0x6f oslib/drivers/startup/board_stubs.o
+ .ARM.attributes
+                0x00000000       0x30 oslib/drivers/startup/board_stubs.o
+ .text          0x00000000        0x0 oslib/drivers/lib/diskio.o
+ .text.xmit_datablock
+                0x00000000      0x12c oslib/drivers/lib/diskio.o
+ .text.disk_status
+                0x00000000       0x10 oslib/drivers/lib/diskio.o
+ .text.disk_write
+                0x00000000      0x144 oslib/drivers/lib/diskio.o
+ .text          0x00000000        0x0 oslib/drivers/target.o
+ .text          0x00000000        0x0 oslib/kernellib.o
+ .data          0x00000000        0x0 oslib/kernellib.o
+ .bss           0x00000000        0x0 oslib/kernellib.o
+ .text.test_add
+                0x00000000        0xc oslib/kernellib.o
+ .text.task_id  0x00000000        0xc oslib/kernellib.o
+ .text.task_yield
+                0x00000000        0x8 oslib/kernellib.o
+ .text.task_wait
+                0x00000000        0x8 oslib/kernellib.o
+ .text          0x00000000        0x0 oslib/libc.o
+ .data          0x00000000        0x0 oslib/libc.o
+ .bss           0x00000000        0x0 oslib/libc.o
+ .text          0x00000000        0x0 oslib/vfs.o
+ .data          0x00000000        0x0 oslib/vfs.o
+ .bss           0x00000000        0x0 oslib/vfs.o
+ .text.ioctl    0x00000000       0x24 oslib/vfs.o
+ .text.lseek    0x00000000       0x20 oslib/vfs.o
+ .text          0x00000000        0x0 oslib/termio.o
+ .data          0x00000000        0x0 oslib/termio.o
+ .text.term_clreol
+                0x00000000        0xc oslib/termio.o
+ .text.term_color
+                0x00000000       0x38 oslib/termio.o
+ .text.term_gotoxy
+                0x00000000       0x34 oslib/termio.o
+ .text.term_up  0x00000000       0x34 oslib/termio.o
+ .text.term_down
+                0x00000000       0x34 oslib/termio.o
+ .text.term_right
+                0x00000000       0x34 oslib/termio.o
+ .text.term_left
+                0x00000000       0x34 oslib/termio.o
+ .text.term_get_rows
+                0x00000000       0x10 oslib/termio.o
+ .text.term_get_cols
+                0x00000000       0x10 oslib/termio.o
+ .text.term_get_cx
+                0x00000000       0x10 oslib/termio.o
+ .text.term_get_cy
+                0x00000000       0x10 oslib/termio.o
+ .text.term_puts
+                0x00000000       0x2c oslib/termio.o
+ .text.term_save_pos
+                0x00000000       0x30 oslib/termio.o
+ .text.term_restore_pos
+                0x00000000       0x24 oslib/termio.o
+ .text          0x00000000        0x0 oslib/fat.o
+ .text.cluster2sector
+                0x00000000       0x14 oslib/fat.o
+ .text          0x00000000        0x0 oslib/drivers/startup/board_cstartup.o
+ .data          0x00000000        0x0 oslib/drivers/startup/board_cstartup.o
+ .bss           0x00000000        0x0 oslib/drivers/startup/board_cstartup.o
+ .text          0x00000000        0x0 oslib/drivers/lib/liblpc2148.a(io.o)
+ .bss           0x00000000        0x0 oslib/drivers/lib/liblpc2148.a(io.o)
+ .text.num2str  0x00000000       0xfc oslib/drivers/lib/liblpc2148.a(io.o)
+ .text.leds_and_btns_init
+                0x00000000       0x2c oslib/drivers/lib/liblpc2148.a(io.o)
+ .text.buttons  0x00000000       0x20 oslib/drivers/lib/liblpc2148.a(io.o)
+ .text.lcd_printf
+                0x00000000      0x2cc oslib/drivers/lib/liblpc2148.a(io.o)
+ .rodata        0x00000000       0x14 oslib/drivers/lib/liblpc2148.a(io.o)
+ .data          0x00000000        0x0 oslib/drivers/lib/liblpc2148.a(io_asm.o)
+ .bss           0x00000000        0x0 oslib/drivers/lib/liblpc2148.a(io_asm.o)
+ .text          0x00000000        0x0 oslib/drivers/lib/liblpc2148.a(lcd.o)
+ .data          0x00000000        0x0 oslib/drivers/lib/liblpc2148.a(lcd.o)
+ .bss           0x00000000        0x0 oslib/drivers/lib/liblpc2148.a(lcd.o)
+ .text.lcd_send_data
+                0x00000000       0x58 oslib/drivers/lib/liblpc2148.a(lcd.o)
+ .text.lcd_send_cmd
+                0x00000000       0x58 oslib/drivers/lib/liblpc2148.a(lcd.o)
+ .text.lcd_is_busy
+                0x00000000       0x84 oslib/drivers/lib/liblpc2148.a(lcd.o)
+ .text.lcd_backlight
+                0x00000000       0x30 oslib/drivers/lib/liblpc2148.a(lcd.o)
+ .text.lcd_display
+                0x00000000       0x20 oslib/drivers/lib/liblpc2148.a(lcd.o)
+ .text.lcd_mode
+                0x00000000       0x20 oslib/drivers/lib/liblpc2148.a(lcd.o)
+ .text.lcd_shift
+                0x00000000       0x20 oslib/drivers/lib/liblpc2148.a(lcd.o)
+ .text.lcd_clear
+                0x00000000       0x18 oslib/drivers/lib/liblpc2148.a(lcd.o)
+ .text.lcd_home
+                0x00000000       0x18 oslib/drivers/lib/liblpc2148.a(lcd.o)
+ .text.lcd_goto_xy
+                0x00000000       0x38 oslib/drivers/lib/liblpc2148.a(lcd.o)
+ .text.lcd_init
+                0x00000000      0x104 oslib/drivers/lib/liblpc2148.a(lcd.o)
+ .text.lcd_put_char
+                0x00000000       0x28 oslib/drivers/lib/liblpc2148.a(lcd.o)
+ .text.lcd_put_string
+                0x00000000       0x2c oslib/drivers/lib/liblpc2148.a(lcd.o)
+ .text.lcd_new_char
+                0x00000000       0x44 oslib/drivers/lib/liblpc2148.a(lcd.o)
+ .comment       0x00000000       0x2b oslib/drivers/lib/liblpc2148.a(lcd.o)
+ .ARM.attributes
+                0x00000000       0x32 oslib/drivers/lib/liblpc2148.a(lcd.o)
+ .text          0x00000000        0x0 oslib/drivers/lib/liblpc2148.a(timer.o)
+ .data          0x00000000        0x0 oslib/drivers/lib/liblpc2148.a(timer.o)
+ .text.timer_wait_ms
+                0x00000000       0x58 oslib/drivers/lib/liblpc2148.a(timer.o)
+ .text.timer_wait_us
+                0x00000000       0x54 oslib/drivers/lib/liblpc2148.a(timer.o)
+ .text.timer_oneshot_init
+                0x00000000       0xd4 oslib/drivers/lib/liblpc2148.a(timer.o)
+ .text.timer_stop
+                0x00000000        0xc oslib/drivers/lib/liblpc2148.a(timer.o)
+ .text          0x00000000        0x0 oslib/drivers/lib/liblpc2148.a(eint.o)
+ .data          0x00000000        0x0 oslib/drivers/lib/liblpc2148.a(eint.o)
+ .text          0x00000000        0x0 oslib/drivers/lib/liblpc2148.a(uart.o)
+ .data          0x00000000        0x0 oslib/drivers/lib/liblpc2148.a(uart.o)
+ .text.uart_getc
+                0x00000000       0x58 oslib/drivers/lib/liblpc2148.a(uart.o)
+ .text.uart_puts
+                0x00000000       0x38 oslib/drivers/lib/liblpc2148.a(uart.o)
+ .text.uart_printf
+                0x00000000      0x190 oslib/drivers/lib/liblpc2148.a(uart.o)
+ .text          0x00000000        0x0 oslib/drivers/lib/liblpc2148.a(util.o)
+ .data          0x00000000        0x0 oslib/drivers/lib/liblpc2148.a(util.o)
+ .bss           0x00000000        0x0 oslib/drivers/lib/liblpc2148.a(util.o)
+ .text.num2str  0x00000000       0x8c oslib/drivers/lib/liblpc2148.a(util.o)
+ .text.str2num  0x00000000       0x90 oslib/drivers/lib/liblpc2148.a(util.o)
+ .rodata        0x00000000       0x14 oslib/drivers/lib/liblpc2148.a(util.o)
+ .comment       0x00000000       0x2b oslib/drivers/lib/liblpc2148.a(util.o)
+ .ARM.attributes
+                0x00000000       0x32 oslib/drivers/lib/liblpc2148.a(util.o)
+ .text          0x00000000        0x0 oslib/drivers/lib/liblpc2148.a(irq.o)
+ .data          0x00000000        0x0 oslib/drivers/lib/liblpc2148.a(irq.o)
+ .bss           0x00000000        0x0 oslib/drivers/lib/liblpc2148.a(irq.o)
+ .text.irq_init
+                0x00000000       0x18 oslib/drivers/lib/liblpc2148.a(irq.o)
+ .text.irq_unregister_slot
+                0x00000000       0x40 oslib/drivers/lib/liblpc2148.a(irq.o)
+ .text          0x00000000        0x0 kernel/libkernel.a(kernel.o)
+ .text          0x00000000        0x0 kernel/libkernel.a(list.o)
+ .data          0x00000000        0x0 kernel/libkernel.a(list.o)
+ .bss           0x00000000        0x0 kernel/libkernel.a(list.o)
+ .text.list_remove_tail
+                0x00000000       0x40 kernel/libkernel.a(list.o)
+ .text.list_display
+                0x00000000       0x34 kernel/libkernel.a(list.o)
+ .text          0x00000000        0x0 kernel/libkernel.a(syscall_dispatch.o)
+ .data          0x00000000        0x0 kernel/libkernel.a(syscall_dispatch.o)
+ .bss           0x00000000        0x0 kernel/libkernel.a(syscall_dispatch.o)
+ .text          0x00000000        0x0 kernel/libkernel.a(alloc.o)
+ .data          0x00000000        0x0 kernel/libkernel.a(alloc.o)
+ .bss           0x00000000        0x0 kernel/libkernel.a(alloc.o)
+ .data          0x00000000        0x0 /local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/libgcc.a(_udivsi3.o)
+ .bss           0x00000000        0x0 /local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/libgcc.a(_udivsi3.o)
+ .data          0x00000000        0x0 /local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/libgcc.a(_dvmd_tls.o)
+ .bss           0x00000000        0x0 /local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/libgcc.a(_dvmd_tls.o)
+ .text          0x00000000        0x0 /local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-ctype_.o)
+ .data          0x00000000        0x0 /local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-ctype_.o)
+ .bss           0x00000000        0x0 /local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-ctype_.o)
+ .text          0x00000000        0x0 /local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-errno.o)
+ .data          0x00000000        0x0 /local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-errno.o)
+ .bss           0x00000000        0x0 /local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-errno.o)
+ .text.__errno  0x00000000       0x10 /local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-errno.o)
+ .debug_frame   0x00000000       0x20 /local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-errno.o)
+ .ARM.attributes
+                0x00000000       0x30 /local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-errno.o)
+ .text          0x00000000        0x0 /local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-impure.o)
+ .data          0x00000000        0x0 /local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-impure.o)
+ .bss           0x00000000        0x0 /local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-impure.o)
+ .data.impure_data
+                0x00000000      0x428 /local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-impure.o)
+ .data._impure_ptr
+                0x00000000        0x4 /local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-impure.o)
+ .rodata.str1.4
+                0x00000000        0x2 /local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-impure.o)
+ .rodata._global_impure_ptr
+                0x00000000        0x4 /local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-impure.o)
+ .ARM.attributes
+                0x00000000       0x30 /local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-impure.o)
+ .text          0x00000000        0x0 /local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-memcpy-stub.o)
+ .data          0x00000000        0x0 /local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-memcpy-stub.o)
+ .bss           0x00000000        0x0 /local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-memcpy-stub.o)
+ .text          0x00000000        0x0 /local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-memmove.o)
+ .data          0x00000000        0x0 /local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-memmove.o)
+ .bss           0x00000000        0x0 /local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-memmove.o)
+ .data          0x00000000        0x0 /local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-strcmp.o)
+ .bss           0x00000000        0x0 /local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-strcmp.o)
+ .text          0x00000000        0x0 /local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-strcpy.o)
+ .data          0x00000000        0x0 /local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-strcpy.o)
+ .bss           0x00000000        0x0 /local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-strcpy.o)
+ .text          0x00000000        0x0 /local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-strlen-stub.o)
+ .data          0x00000000        0x0 /local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-strlen-stub.o)
+ .bss           0x00000000        0x0 /local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-strlen-stub.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x00000000         0x00080000         xr
+SRAM1            0x40000000         0x00008000         xrw
+SRAM2            0x7fd00000         0x00002000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD user/tp3_ex2.o
+LOAD user/lexer.o
+LOAD oslib/drivers/startup/board_lowlevel.o
+LOAD oslib/drivers/startup/board_stubs.o
+LOAD oslib/drivers/lib/diskio.o
+LOAD oslib/drivers/target.o
+LOAD oslib/kernellib.o
+LOAD oslib/libc.o
+LOAD oslib/vfs.o
+LOAD oslib/termio.o
+LOAD oslib/fat.o
+LOAD oslib/drivers/startup/board_cstartup.o
+LOAD oslib/drivers/lib/liblpc2148.a
+LOAD kernel/libkernel.a
+START GROUP
+LOAD /local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/libgcc.a
+LOAD /local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a
+END GROUP
+                0x00000080                USR_STACK_SIZE = 0x80
+                0x00000400                IRQ_STACK_SIZE = 0x400
+                0x00000000                FIQ_STACK_SIZE = 0x0
+                0x00000400                SVC_STACK_SIZE = 0x400
+                0x00000000                ABT_STACK_SIZE = 0x0
+                0x00000000                UND_STACK_SIZE = 0x0
+                0x7fd02000                HEAP_END = 0x7fd02000
+
+.vectors        0x40000000       0x40
+ *(.vectors)
+ .vectors       0x40000000       0x40 oslib/drivers/startup/board_cstartup.o
+                0x40000000                _start
+
+.text           0x40000040     0x51ac
+ *(.init .init.*)
+ .init          0x40000040      0x14c oslib/drivers/startup/board_cstartup.o
+                0x40000154                _exit
+ *(.text .text.*)
+ .text.idle     0x4000018c        0x4 user/tp3_ex2.o
+                0x4000018c                idle
+ .text.tache1   0x40000190      0x544 user/tp3_ex2.o
+                0x40000190                tache1
+ .text.startup.main
+                0x400006d4       0x34 user/tp3_ex2.o
+                0x400006d4                main
+ .text.scan_number
+                0x40000708      0x130 user/lexer.o
+ .text.lexer_reset
+                0x40000838       0x10 user/lexer.o
+                0x40000838                lexer_reset
+ .text.next_token
+                0x40000848      0x238 user/lexer.o
+                0x40000848                next_token
+ .text.LowLevelInit
+                0x40000a80       0xd0 oslib/drivers/startup/board_lowlevel.o
+                0x40000a80                LowLevelInit
+ .text.select   0x40000b50       0xc8 oslib/drivers/lib/diskio.o
+ .text.send_cmd
+                0x40000c18      0x1d8 oslib/drivers/lib/diskio.o
+ .text.rcvr_datablock
+                0x40000df0       0xe8 oslib/drivers/lib/diskio.o
+ .text.disk_initialize
+                0x40000ed8      0x2d4 oslib/drivers/lib/diskio.o
+                0x40000ed8                disk_initialize
+ .text.disk_read
+                0x400011ac      0x110 oslib/drivers/lib/diskio.o
+                0x400011ac                disk_read
+ .text.disk_ioctl
+                0x400012bc      0x52c oslib/drivers/lib/diskio.o
+                0x400012bc                disk_ioctl
+ .text.disk_timerproc
+                0x400017e8       0x5c oslib/drivers/lib/diskio.o
+                0x400017e8                disk_timerproc
+ .text.dev_read_btn
+                0x40001844       0x1c oslib/drivers/target.o
+ .text.dev_read_test
+                0x40001860       0x7c oslib/drivers/target.o
+ .text.dev_close_leds
+                0x400018dc       0x38 oslib/drivers/target.o
+ .text.dev_close_test
+                0x40001914        0x4 oslib/drivers/target.o
+ .text.dev_open_console
+                0x40001918       0x70 oslib/drivers/target.o
+ .text.dev_init_test
+                0x40001988       0x24 oslib/drivers/target.o
+ .text.dev_init_leds
+                0x400019ac       0x20 oslib/drivers/target.o
+ .text.dev_write_leds
+                0x400019cc       0x38 oslib/drivers/target.o
+ .text.dev_open_leds
+                0x40001a04       0x8c oslib/drivers/target.o
+ .text.dev_init_btns
+                0x40001a90       0x3c oslib/drivers/target.o
+ .text.dev_init_btn
+                0x40001acc       0x40 oslib/drivers/target.o
+ .text.on_button_cb
+                0x40001b0c       0x1c oslib/drivers/target.o
+ .text.on_receive_cb
+                0x40001b28       0x1c oslib/drivers/target.o
+ .text.dev_init_console
+                0x40001b44       0x68 oslib/drivers/target.o
+ .text.dev_read_console
+                0x40001bac       0x70 oslib/drivers/target.o
+ .text.on_timeout_cb
+                0x40001c1c       0xd8 oslib/drivers/target.o
+ .text.dev_open_test
+                0x40001cf4       0x58 oslib/drivers/target.o
+ .text.dev_write_console
+                0x40001d4c       0x34 oslib/drivers/target.o
+ .text.dev_init
+                0x40001d80       0x7c oslib/drivers/target.o
+                0x40001d80                dev_init
+ .text.malloc   0x40001dfc        0xc oslib/kernellib.o
+                0x40001dfc                malloc
+ .text.free     0x40001e08        0x8 oslib/kernellib.o
+                0x40001e08                free
+ .text.os_start
+                0x40001e10        0x8 oslib/kernellib.o
+                0x40001e10                os_start
+ .text.task_new
+                0x40001e18        0xc oslib/kernellib.o
+                0x40001e18                task_new
+ .text.task_kill
+                0x40001e24        0x8 oslib/kernellib.o
+                0x40001e24                task_kill
+ .text.sem_new  0x40001e2c        0xc oslib/kernellib.o
+                0x40001e2c                sem_new
+ .text.sem_p    0x40001e38        0x8 oslib/kernellib.o
+                0x40001e38                sem_p
+ .text.sem_v    0x40001e40        0x8 oslib/kernellib.o
+                0x40001e40                sem_v
+ .text.strdup   0x40001e48       0x34 oslib/libc.o
+                0x40001e48                strdup
+ .text.dirname  0x40001e7c       0x60 oslib/vfs.o
+                0x40001e7c                dirname
+ .text.basename
+                0x40001edc       0x34 oslib/vfs.o
+                0x40001edc                basename
+ .text.mount    0x40001f10       0x10 oslib/vfs.o
+                0x40001f10                mount
+ .text.open     0x40001f20      0x208 oslib/vfs.o
+                0x40001f20                open
+ .text.close    0x40002128       0x54 oslib/vfs.o
+                0x40002128                close
+ .text.read     0x4000217c       0x24 oslib/vfs.o
+                0x4000217c                read
+ .text.write    0x400021a0       0x24 oslib/vfs.o
+                0x400021a0                write
+ .text.readdir  0x400021c4       0xf4 oslib/vfs.o
+                0x400021c4                readdir
+ .text.num2str  0x400022b8       0xe4 oslib/termio.o
+ .text.term_ansi
+                0x4000239c      0x118 oslib/termio.o
+ .text.term_init
+                0x400024b4       0x40 oslib/termio.o
+                0x400024b4                term_init
+ .text.term_clrscr
+                0x400024f4       0x38 oslib/termio.o
+                0x400024f4                term_clrscr
+ .text.term_getc
+                0x4000252c      0x50c oslib/termio.o
+                0x4000252c                term_getc
+ .text.term_putc
+                0x40002a38       0x64 oslib/termio.o
+                0x40002a38                term_putc
+ .text.term_printf
+                0x40002a9c      0x434 oslib/termio.o
+                0x40002a9c                term_printf
+ .text.readline
+                0x40002ed0      0x40c oslib/termio.o
+                0x40002ed0                readline
+ .text.cpy_name
+                0x400032dc       0x90 oslib/fat.o
+ .text.dev_fs_close
+                0x4000336c       0x3c oslib/fat.o
+ .text.fat_mount
+                0x400033a8      0x21c oslib/fat.o
+                0x400033a8                fat_mount
+ .text.dev_fs_init
+                0x400035c4       0x68 oslib/fat.o
+ .text.next_cluster
+                0x4000362c       0x74 oslib/fat.o
+                0x4000362c                next_cluster
+ .text.fat_get_info
+                0x400036a0      0x14c oslib/fat.o
+                0x400036a0                fat_get_info
+ .text.dev_fs_open
+                0x400037ec       0xb8 oslib/fat.o
+ .text.fat_next_dir
+                0x400038a4      0x17c oslib/fat.o
+                0x400038a4                fat_next_dir
+ .text.fat_read
+                0x40003a20      0x124 oslib/fat.o
+                0x40003a20                fat_read
+ .text.dev_fs_read
+                0x40003b44       0x68 oslib/fat.o
+ .text.dev_fs_next_dir
+                0x40003bac       0x10 oslib/fat.o
+                0x40003bac                dev_fs_next_dir
+ .text.io_configure
+                0x40003bbc      0x10c oslib/drivers/lib/liblpc2148.a(io.o)
+                0x40003bbc                io_configure
+ .text.leds     0x40003cc8       0x24 oslib/drivers/lib/liblpc2148.a(io.o)
+                0x40003cc8                leds
+ .text.button0  0x40003cec       0x48 oslib/drivers/lib/liblpc2148.a(io.o)
+                0x40003cec                button0
+ .text.button1  0x40003d34       0x48 oslib/drivers/lib/liblpc2148.a(io.o)
+                0x40003d34                button1
+ .text.button2  0x40003d7c       0x48 oslib/drivers/lib/liblpc2148.a(io.o)
+                0x40003d7c                button2
+ .text.button3  0x40003dc4       0x48 oslib/drivers/lib/liblpc2148.a(io.o)
+                0x40003dc4                button3
+ .text.button4  0x40003e0c       0x48 oslib/drivers/lib/liblpc2148.a(io.o)
+                0x40003e0c                button4
+ .text          0x40003e54       0x2c oslib/drivers/lib/liblpc2148.a(io_asm.o)
+                0x40003e54                io_read
+                0x40003e60                io_write
+                0x40003e70                io_write_n
+ .text.timer0_isr
+                0x40003e80       0x38 oslib/drivers/lib/liblpc2148.a(timer.o)
+                0x40003e80                timer0_isr
+ .text.timer1_isr
+                0x40003eb8       0x38 oslib/drivers/lib/liblpc2148.a(timer.o)
+                0x40003eb8                timer1_isr
+ .text.timer_tick_init
+                0x40003ef0       0xd4 oslib/drivers/lib/liblpc2148.a(timer.o)
+                0x40003ef0                timer_tick_init
+ .text.timer_start
+                0x40003fc4        0xc oslib/drivers/lib/liblpc2148.a(timer.o)
+                0x40003fc4                timer_start
+ .text.eint1_isr
+                0x40003fd0       0x38 oslib/drivers/lib/liblpc2148.a(eint.o)
+                0x40003fd0                eint1_isr
+ .text.eint1_init
+                0x40004008       0x8c oslib/drivers/lib/liblpc2148.a(eint.o)
+                0x40004008                eint1_init
+ .text.uart0_isr
+                0x40004094       0xb8 oslib/drivers/lib/liblpc2148.a(uart.o)
+                0x40004094                uart0_isr
+ .text.uart1_isr
+                0x4000414c       0x40 oslib/drivers/lib/liblpc2148.a(uart.o)
+                0x4000414c                uart1_isr
+ .text.uart_init
+                0x4000418c      0x140 oslib/drivers/lib/liblpc2148.a(uart.o)
+                0x4000418c                uart_init
+ .text.uart_getchar
+                0x400042cc       0x58 oslib/drivers/lib/liblpc2148.a(uart.o)
+                0x400042cc                uart_getchar
+ .text.uart_putc
+                0x40004324       0x14 oslib/drivers/lib/liblpc2148.a(uart.o)
+                0x40004324                uart_putc
+ .text.irq_register_slot
+                0x40004338       0x64 oslib/drivers/lib/liblpc2148.a(irq.o)
+                0x40004338                irq_register_slot
+ .text.irq_ack  0x4000439c       0x18 oslib/drivers/lib/liblpc2148.a(irq.o)
+                0x4000439c                irq_ack
+ .text.sys_round_robin
+                0x400043b4      0x120 kernel/libkernel.a(kernel.o)
+                0x400043b4                sys_round_robin
+ .text.sys_os_start
+                0x400044d4       0x44 kernel/libkernel.a(kernel.o)
+                0x400044d4                sys_os_start
+ .text.sys_task_new
+                0x40004518       0xb8 kernel/libkernel.a(kernel.o)
+                0x40004518                sys_task_new
+ .text.sys_task_kill
+                0x400045d0       0x60 kernel/libkernel.a(kernel.o)
+                0x400045d0                sys_task_kill
+ .text.sys_task_id
+                0x40004630       0x14 kernel/libkernel.a(kernel.o)
+                0x40004630                sys_task_id
+ .text.sys_task_yield
+                0x40004644        0x8 kernel/libkernel.a(kernel.o)
+                0x40004644                sys_task_yield
+ .text.sys_task_wait
+                0x4000464c       0x88 kernel/libkernel.a(kernel.o)
+                0x4000464c                sys_task_wait
+ .text.sys_sem_new
+                0x400046d4       0x28 kernel/libkernel.a(kernel.o)
+                0x400046d4                sys_sem_new
+ .text.sys_sem_p
+                0x400046fc       0xa0 kernel/libkernel.a(kernel.o)
+                0x400046fc                sys_sem_p
+ .text.sys_sem_v
+                0x4000479c       0xa4 kernel/libkernel.a(kernel.o)
+                0x4000479c                sys_sem_v
+ .text.list_insert_head
+                0x40004840       0x2c kernel/libkernel.a(list.o)
+                0x40004840                list_insert_head
+ .text.list_remove_head
+                0x4000486c       0x40 kernel/libkernel.a(list.o)
+                0x4000486c                list_remove_head
+ .text.list_insert_tail
+                0x400048ac       0x2c kernel/libkernel.a(list.o)
+                0x400048ac                list_insert_tail
+ .text.list_size
+                0x400048d8       0x38 kernel/libkernel.a(list.o)
+                0x400048d8                list_size
+ .text.sys_add  0x40004910        0x8 kernel/libkernel.a(syscall_dispatch.o)
+                0x40004910                sys_add
+ .text.syscall_dispatch
+                0x40004918       0xcc kernel/libkernel.a(syscall_dispatch.o)
+                0x40004918                syscall_dispatch
+ .text.minit    0x400049e4       0x24 kernel/libkernel.a(alloc.o)
+                0x400049e4                minit
+ .text.sys_alloc
+                0x40004a08       0x90 kernel/libkernel.a(alloc.o)
+                0x40004a08                sys_alloc
+ .text.sys_free
+                0x40004a98       0xac kernel/libkernel.a(alloc.o)
+                0x40004a98                sys_free
+ .text          0x40004b44      0x114 /local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/libgcc.a(_udivsi3.o)
+                0x40004b44                __udivsi3
+                0x40004b44                __aeabi_uidiv
+                0x40004c38                __aeabi_uidivmod
+ .text          0x40004c58        0x4 /local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/libgcc.a(_dvmd_tls.o)
+                0x40004c58                __aeabi_ldiv0
+                0x40004c58                __aeabi_idiv0
+ .text.memcpy   0x40004c5c       0xf0 /local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-memcpy-stub.o)
+                0x40004c5c                memcpy
+ .text.memmove  0x40004d4c      0x12c /local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-memmove.o)
+                0x40004d4c                memmove
+ .text          0x40004e78      0x224 /local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-strcmp.o)
+                0x40004e78                strcmp
+ .text.strcpy   0x4000509c       0xf0 /local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-strcpy.o)
+                0x4000509c                strcpy
+ .text.strlen   0x4000518c       0x60 /local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-strlen-stub.o)
+                0x4000518c                strlen
+
+.glue_7         0x400051ec        0x0
+ .glue_7        0x400051ec        0x0 linker stubs
+
+.glue_7t        0x400051ec        0x0
+ .glue_7t       0x400051ec        0x0 linker stubs
+
+.vfp11_veneer   0x400051ec        0x0
+ .vfp11_veneer  0x400051ec        0x0 linker stubs
+
+.v4_bx          0x400051ec        0x0
+ .v4_bx         0x400051ec        0x0 linker stubs
+
+.iplt           0x400051ec        0x0
+ .iplt          0x400051ec        0x0 user/tp3_ex2.o
+
+.rodata         0x400051ec      0x56d
+ *(.rodata .rodata.*)
+ .rodata.str1.4
+                0x400051ec      0x2a6 user/tp3_ex2.o
+                                0x2aa (size before relaxing)
+ *fill*         0x40005492        0x2 
+ .rodata        0x40005494       0x58 oslib/drivers/startup/board_lowlevel.o
+                0x40005494                _WD
+                0x40005498                _DAC
+                0x4000549c                _ADC1
+                0x400054a0                _ADC0
+                0x400054a4                _RTC
+                0x400054a8                _SSP
+                0x400054ac                _SPI0
+                0x400054b0                _I2C1
+                0x400054b4                _I2C0
+                0x400054b8                _UART1
+                0x400054bc                _UART0
+                0x400054c0                _PWM
+                0x400054c4                _TIMER1
+                0x400054c8                _TIMER0
+                0x400054cc                _FIO1
+                0x400054d0                _FIO0
+                0x400054d4                _IO1
+                0x400054d8                _IO0
+                0x400054dc                _EXT
+                0x400054e0                _SCB
+                0x400054e4                _PCB
+                0x400054e8                _VIC
+ .rodata.str1.4
+                0x400054ec       0x12 oslib/drivers/target.o
+ *fill*         0x400054fe        0x2 
+ .rodata.str1.4
+                0x40005500        0xc oslib/vfs.o
+ .rodata        0x4000550c       0x11 oslib/termio.o
+ *fill*         0x4000551d        0x3 
+ .rodata.str1.4
+                0x40005520       0x42 oslib/termio.o
+ *fill*         0x40005562        0x2 
+ .rodata.str1.4
+                0x40005564       0xf4 oslib/fat.o
+                                0x17d (size before relaxing)
+ .rodata._ctype_
+                0x40005658      0x101 /local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-ctype_.o)
+                0x40005658                _ctype_
+
+.rel.dyn        0x4000575c        0x0
+ .rel.iplt      0x4000575c        0x0 user/tp3_ex2.o
+
+.data           0x4000575c      0x294
+                0x4000575c                __data_load = LOADADDR (.data)
+                0x4000575c                __data_start = .
+ *(.data)
+ .data          0x4000575c       0x51 user/lexer.o
+                0x4000575c                cmds
+ .data          0x400057ad        0x1 oslib/drivers/lib/diskio.o
+ *fill*         0x400057ae        0x2 
+ .data          0x400057b0      0x1fc oslib/drivers/target.o
+                0x400057b0                dev_eint1
+                0x400057e4                dev_console
+                0x40005818                dev_btn0
+                0x4000584c                dev_btn1
+                0x40005880                dev_btn2
+                0x400058b4                dev_btn3
+                0x400058e8                dev_btn4
+                0x4000591c                device_table
+                0x40005944                dev_leds
+                0x40005978                dev_test
+ .data          0x400059ac       0x34 oslib/fat.o
+                0x400059ac                dev_fs
+ .data          0x400059e0        0xa oslib/drivers/lib/liblpc2148.a(io.o)
+ *fill*         0x400059ea        0x2 
+ .data          0x400059ec        0x4 kernel/libkernel.a(kernel.o)
+                0x400059f0                . = ALIGN (0x4)
+                0x400059f0                __data_end = .
+
+.igot.plt       0x400059f0        0x0
+ .igot.plt      0x400059f0        0x0 user/tp3_ex2.o
+
+.data.__ctype_ptr__
+                0x400059f0        0x4
+ .data.__ctype_ptr__
+                0x400059f0        0x4 /local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-ctype_.o)
+                0x400059f0                __ctype_ptr__
+
+.bss            0x400059f4      0x604
+                0x400059f4                __bss_start = .
+ *(.bss .bss.*)
+ .bss           0x400059f4        0x4 user/lexer.o
+ .bss           0x400059f8        0x9 oslib/drivers/lib/diskio.o
+ *fill*         0x40005a01        0x3 
+ .bss           0x40005a04        0x4 oslib/drivers/target.o
+                0x40005a04                tick
+ .bss           0x40005a08       0x34 oslib/termio.o
+ .bss           0x40005a3c      0x200 oslib/fat.o
+ .bss           0x40005c3c        0x8 oslib/drivers/lib/liblpc2148.a(timer.o)
+ .bss           0x40005c44        0x4 oslib/drivers/lib/liblpc2148.a(eint.o)
+ .bss           0x40005c48       0x90 oslib/drivers/lib/liblpc2148.a(uart.o)
+ .bss           0x40005cd8        0xc kernel/libkernel.a(kernel.o)
+                0x40005cd8                tsk_running
+                0x40005cdc                tsk_sleeping
+                0x40005ce0                saved_ctx
+                0x40005ce4                . = ALIGN (0x4)
+                0x40005ce4                __bss_end = .
+ COMMON         0x40005ce4      0x250 user/tp3_ex2.o
+                0x40005ce4                text
+                0x40005d34                buf
+ COMMON         0x40005f34       0x58 user/lexer.o
+                0x40005f34                token_val
+                0x40005f38                token
+                0x40005f3c                token_str
+ COMMON         0x40005f8c       0x50 oslib/vfs.o
+                0x40005f8c                opened_fds
+ COMMON         0x40005fdc       0x1c oslib/fat.o
+                0x40005fdc                fs
+
+.stack          0x40005ff8      0x880
+                0x40005ff8                . = ALIGN (0x4)
+                0x40005ff8                __stack_start = .
+                0x40006078                . = (. + USR_STACK_SIZE)
+ *fill*         0x40005ff8       0x80 
+                0x40006078                . = ALIGN (0x4)
+                0x40006078                __usr_stack_top = .
+                0x40006478                . = (. + IRQ_STACK_SIZE)
+ *fill*         0x40006078      0x400 
+                0x40006478                . = ALIGN (0x4)
+                0x40006478                __irq_stack_top = .
+                0x40006478                . = (. + FIQ_STACK_SIZE)
+                0x40006478                . = ALIGN (0x4)
+                0x40006478                __fiq_stack_top = .
+                0x40006878                . = (. + SVC_STACK_SIZE)
+ *fill*         0x40006478      0x400 
+                0x40006878                . = ALIGN (0x4)
+                0x40006878                __svc_stack_top = .
+                0x40006878                . = (. + ABT_STACK_SIZE)
+                0x40006878                . = ALIGN (0x4)
+                0x40006878                __abt_stack_top = .
+                0x40006878                . = (. + UND_STACK_SIZE)
+                0x40006878                . = ALIGN (0x4)
+                0x40006878                __und_stack_top = .
+                0x40006878                __stack_end = .
+
+.heap           0x7fd00000     0x2000
+                0x7fd00000                __heap_start = .
+                0x7fd02000                . = ABSOLUTE (HEAP_END)
+ *fill*         0x7fd00000     0x2000 
+                0x7fd02000                __heap_end = .
+OUTPUT(main.elf elf32-littlearm)
+
+.comment        0x00000000       0x98
+ .comment       0x00000000       0x6e user/tp3_ex2.o
+                                 0x6f (size before relaxing)
+ .comment       0x0000006e       0x6f user/lexer.o
+ .comment       0x0000006e       0x6f oslib/drivers/startup/board_lowlevel.o
+ .comment       0x0000006e       0x6f oslib/drivers/lib/diskio.o
+ .comment       0x0000006e       0x6f oslib/drivers/target.o
+ .comment       0x0000006e       0x6f oslib/kernellib.o
+ .comment       0x0000006e       0x6f oslib/libc.o
+ .comment       0x0000006e       0x6f oslib/vfs.o
+ .comment       0x0000006e       0x6f oslib/termio.o
+ .comment       0x0000006e       0x6f oslib/fat.o
+ .comment       0x0000006e       0x2a oslib/drivers/lib/liblpc2148.a(io.o)
+                                 0x2b (size before relaxing)
+ .comment       0x00000098       0x2b oslib/drivers/lib/liblpc2148.a(timer.o)
+ .comment       0x00000098       0x2b oslib/drivers/lib/liblpc2148.a(eint.o)
+ .comment       0x00000098       0x2b oslib/drivers/lib/liblpc2148.a(uart.o)
+ .comment       0x00000098       0x2b oslib/drivers/lib/liblpc2148.a(irq.o)
+ .comment       0x00000098       0x2b kernel/libkernel.a(kernel.o)
+ .comment       0x00000098       0x2b kernel/libkernel.a(list.o)
+ .comment       0x00000098       0x2b kernel/libkernel.a(syscall_dispatch.o)
+ .comment       0x00000098       0x2b kernel/libkernel.a(alloc.o)
+
+.ARM.attributes
+                0x00000000       0x30
+ .ARM.attributes
+                0x00000000       0x30 user/tp3_ex2.o
+ .ARM.attributes
+                0x00000030       0x30 user/lexer.o
+ .ARM.attributes
+                0x00000060       0x30 oslib/drivers/startup/board_lowlevel.o
+ .ARM.attributes
+                0x00000090       0x30 oslib/drivers/lib/diskio.o
+ .ARM.attributes
+                0x000000c0       0x30 oslib/drivers/target.o
+ .ARM.attributes
+                0x000000f0       0x30 oslib/kernellib.o
+ .ARM.attributes
+                0x00000120       0x30 oslib/libc.o
+ .ARM.attributes
+                0x00000150       0x30 oslib/vfs.o
+ .ARM.attributes
+                0x00000180       0x30 oslib/termio.o
+ .ARM.attributes
+                0x000001b0       0x30 oslib/fat.o
+ .ARM.attributes
+                0x000001e0       0x16 oslib/drivers/startup/board_cstartup.o
+ .ARM.attributes
+                0x000001f6       0x32 oslib/drivers/lib/liblpc2148.a(io.o)
+ .ARM.attributes
+                0x00000228       0x16 oslib/drivers/lib/liblpc2148.a(io_asm.o)
+ .ARM.attributes
+                0x0000023e       0x32 oslib/drivers/lib/liblpc2148.a(timer.o)
+ .ARM.attributes
+                0x00000270       0x32 oslib/drivers/lib/liblpc2148.a(eint.o)
+ .ARM.attributes
+                0x000002a2       0x32 oslib/drivers/lib/liblpc2148.a(uart.o)
+ .ARM.attributes
+                0x000002d4       0x32 oslib/drivers/lib/liblpc2148.a(irq.o)
+ .ARM.attributes
+                0x00000306       0x32 kernel/libkernel.a(kernel.o)
+ .ARM.attributes
+                0x00000338       0x32 kernel/libkernel.a(list.o)
+ .ARM.attributes
+                0x0000036a       0x32 kernel/libkernel.a(syscall_dispatch.o)
+ .ARM.attributes
+                0x0000039c       0x32 kernel/libkernel.a(alloc.o)
+ .ARM.attributes
+                0x000003ce       0x18 /local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x000003e6       0x18 /local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x000003fe       0x30 /local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-ctype_.o)
+ .ARM.attributes
+                0x0000042e       0x30 /local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-memcpy-stub.o)
+ .ARM.attributes
+                0x0000045e       0x30 /local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-memmove.o)
+ .ARM.attributes
+                0x0000048e       0x16 /local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-strcmp.o)
+ .ARM.attributes
+                0x000004a4       0x30 /local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-strcpy.o)
+ .ARM.attributes
+                0x000004d4       0x30 /local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-strlen-stub.o)
+
+.debug_line     0x00000000      0x4ff
+ .debug_line    0x00000000       0xcb oslib/drivers/startup/board_cstartup.o
+ .debug_line    0x000000cb       0x58 oslib/drivers/lib/liblpc2148.a(io_asm.o)
+ .debug_line    0x00000123      0x195 kernel/libkernel.a(kernel.o)
+ .debug_line    0x000002b8       0xfb kernel/libkernel.a(list.o)
+ .debug_line    0x000003b3       0x94 kernel/libkernel.a(syscall_dispatch.o)
+ .debug_line    0x00000447       0xb8 kernel/libkernel.a(alloc.o)
+
+.debug_info     0x00000000      0xdbf
+ .debug_info    0x00000000       0x7c oslib/drivers/startup/board_cstartup.o
+ .debug_info    0x0000007c       0x67 oslib/drivers/lib/liblpc2148.a(io_asm.o)
+ .debug_info    0x000000e3      0x564 kernel/libkernel.a(kernel.o)
+ .debug_info    0x00000647      0x332 kernel/libkernel.a(list.o)
+ .debug_info    0x00000979      0x244 kernel/libkernel.a(syscall_dispatch.o)
+ .debug_info    0x00000bbd      0x202 kernel/libkernel.a(alloc.o)
+
+.debug_abbrev   0x00000000      0x531
+ .debug_abbrev  0x00000000       0x12 oslib/drivers/startup/board_cstartup.o
+ .debug_abbrev  0x00000012       0x14 oslib/drivers/lib/liblpc2148.a(io_asm.o)
+ .debug_abbrev  0x00000026      0x1c1 kernel/libkernel.a(kernel.o)
+ .debug_abbrev  0x000001e7      0x126 kernel/libkernel.a(list.o)
+ .debug_abbrev  0x0000030d      0x102 kernel/libkernel.a(syscall_dispatch.o)
+ .debug_abbrev  0x0000040f      0x122 kernel/libkernel.a(alloc.o)
+
+.debug_aranges  0x00000000      0x150
+ .debug_aranges
+                0x00000000       0x28 oslib/drivers/startup/board_cstartup.o
+ .debug_aranges
+                0x00000028       0x20 oslib/drivers/lib/liblpc2148.a(io_asm.o)
+ .debug_aranges
+                0x00000048       0x68 kernel/libkernel.a(kernel.o)
+ .debug_aranges
+                0x000000b0       0x48 kernel/libkernel.a(list.o)
+ .debug_aranges
+                0x000000f8       0x28 kernel/libkernel.a(syscall_dispatch.o)
+ .debug_aranges
+                0x00000120       0x30 kernel/libkernel.a(alloc.o)
+
+.debug_ranges   0x00000000      0x100
+ .debug_ranges  0x00000000       0x20 oslib/drivers/startup/board_cstartup.o
+ .debug_ranges  0x00000020       0x58 kernel/libkernel.a(kernel.o)
+ .debug_ranges  0x00000078       0x38 kernel/libkernel.a(list.o)
+ .debug_ranges  0x000000b0       0x18 kernel/libkernel.a(syscall_dispatch.o)
+ .debug_ranges  0x000000c8       0x38 kernel/libkernel.a(alloc.o)
+
+.debug_loc      0x00000000      0x646
+ .debug_loc     0x00000000      0x284 kernel/libkernel.a(kernel.o)
+ .debug_loc     0x00000284      0x143 kernel/libkernel.a(list.o)
+ .debug_loc     0x000003c7      0x161 kernel/libkernel.a(syscall_dispatch.o)
+ .debug_loc     0x00000528      0x11e kernel/libkernel.a(alloc.o)
+
+.debug_pubnames
+                0x00000000      0x1d9
+ .debug_pubnames
+                0x00000000       0xea kernel/libkernel.a(kernel.o)
+ .debug_pubnames
+                0x000000ea       0x85 kernel/libkernel.a(list.o)
+ .debug_pubnames
+                0x0000016f       0x33 kernel/libkernel.a(syscall_dispatch.o)
+ .debug_pubnames
+                0x000001a2       0x37 kernel/libkernel.a(alloc.o)
+
+.debug_pubtypes
+                0x00000000      0x1be
+ .debug_pubtypes
+                0x00000000       0x95 kernel/libkernel.a(kernel.o)
+ .debug_pubtypes
+                0x00000095       0x6b kernel/libkernel.a(list.o)
+ .debug_pubtypes
+                0x00000100       0x95 kernel/libkernel.a(syscall_dispatch.o)
+ .debug_pubtypes
+                0x00000195       0x29 kernel/libkernel.a(alloc.o)
+
+.debug_str      0x00000000      0x2f8
+ .debug_str     0x00000000      0x200 kernel/libkernel.a(kernel.o)
+                                0x260 (size before relaxing)
+ .debug_str     0x00000200       0x78 kernel/libkernel.a(list.o)
+                                0x1cd (size before relaxing)
+ .debug_str     0x00000278       0x38 kernel/libkernel.a(syscall_dispatch.o)
+                                0x18a (size before relaxing)
+ .debug_str     0x000002b0       0x48 kernel/libkernel.a(alloc.o)
+                                0x10c (size before relaxing)
+
+.debug_frame    0x00000000      0x344
+ .debug_frame   0x00000000      0x12c kernel/libkernel.a(kernel.o)
+ .debug_frame   0x0000012c       0x7c kernel/libkernel.a(list.o)
+ .debug_frame   0x000001a8       0x38 kernel/libkernel.a(syscall_dispatch.o)
+ .debug_frame   0x000001e0       0x48 kernel/libkernel.a(alloc.o)
+ .debug_frame   0x00000228       0x20 /local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/libgcc.a(_udivsi3.o)
+ .debug_frame   0x00000248       0x3c /local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-memcpy-stub.o)
+ .debug_frame   0x00000284       0x40 /local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-memmove.o)
+ .debug_frame   0x000002c4       0x40 /local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-strcmp.o)
+ .debug_frame   0x00000304       0x20 /local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-strcpy.o)
+ .debug_frame   0x00000324       0x20 /local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-strlen-stub.o)
